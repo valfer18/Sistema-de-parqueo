@@ -1,0 +1,227 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1rem;
+}
+
+.card {
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para los títulos */
+.card-header {
+    background-color: #ffffff;
+    color: #1a237e;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #1a237e;
+}
+
+/* Estilos para el modal de confirmación */
+#vehicleInfo {
+    padding: 1rem;
+}
+
+.vehicle-detail {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.vehicle-detail:last-child {
+    border-bottom: none;
+}
+
+.vehicle-label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.vehicle-value {
+    color: #212529;
+}
+
+/* Estilos para el modal de tiquete */
+.receipt-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.receipt-modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.receipt-close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.receipt-close:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.receipt-item {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.receipt-item .label {
+    font-weight: 600;
+}
+
+.receipt-total {
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.receipt-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.receipt-actions button {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el título principal */
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #1a237e;
+    font-weight: 600;
+}
+
+/* Mejorar el contraste del texto en general */
+.form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+    color: #333333;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #1a237e;
+    padding: 0.5rem;
+}
+
+.table td {
+    padding: 0.5rem;
+    color: #333333;
+}
+
+/* Estilos para el formulario más compacto */
+.form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
+.form-control {
+    height: 2rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.btn {
+    padding: 0.375rem 1rem;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.375rem 1rem;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.table {
+    background-color: white;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    padding: 0.5rem;
+}
+
+.table td {
+    padding: 0.5rem;
+}
+
+.card-body {
+    padding: 0.75rem;
+}
+
+#vehiclesTable tr {
+    transition: background-color 0.3s ease;
+}
+
+#vehiclesTable tr:hover {
+    background-color: #f8f9fa;
+}
+
+.cost-cell {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.time-cell {
+    font-weight: 500;
+    color: #28a745;
+}
+
+/* Ajustar el tamaño de los inputs del formulario */
+.form-control {
+    height: 2.5rem;
+    padding: 0.5rem;
+}
+
+/* Ajustar el tamaño del botón de registro */
+.btn {
+    padding: 0.375rem 1rem;
+}
